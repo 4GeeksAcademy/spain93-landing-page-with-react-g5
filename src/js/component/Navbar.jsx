@@ -9,7 +9,8 @@ export const Navbar = () => {
                 <h1 className="navbar-brand text-white mb-0">Landing Page de Jennifer Santiago y Javier Fuentes</h1>
 
                 <button
-                    className="navbar-toggler"
+                    style={{ backgroundColor: '#F0F0F0' }}
+                    className="navbar-toggler border-grey me-auto"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#navbarNav"
