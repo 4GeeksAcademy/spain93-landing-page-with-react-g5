@@ -3,11 +3,13 @@ import { Card } from "./Card.jsx";
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
+import { Navbar } from "./Navbar.jsx";
 
 //create your first component
 const Home = () => {
 	return (
 		<div className="text-center">
+			<Navbar />
 			<h1 className="text-center mt-5">Hello Rigo!</h1>
 			<Card />
 			<a href="#" className="btn btn-success">
