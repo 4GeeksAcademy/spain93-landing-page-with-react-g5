@@ -5,6 +5,7 @@ import { Card } from "./Card.jsx";
 import rigoImage from "../../img/rigo-baby.jpg";
 import { Navbar } from "./Navbar.jsx";
 import { Jumbotron } from "./Jumbotron.jsx";
+import { Footer } from "./Footer.jsx";
 
 //create your first component
 const Home = () => {
@@ -21,6 +22,7 @@ const Home = () => {
 				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
 				love!
 			</p>
+			<Footer />
 		</div>
 	);
 };
