@@ -4,6 +4,7 @@ import { Card } from "./Card.jsx";
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
 import { Navbar } from "./Navbar.jsx";
+import { Footer } from "./Footer.jsx";
 
 //create your first component
 const Home = () => {
@@ -20,6 +21,7 @@ const Home = () => {
 				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
 				love!
 			</p>
+			<Footer />
 		</div>
 	);
 };
